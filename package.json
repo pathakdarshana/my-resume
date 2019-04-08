@@ -8,31 +8,28 @@
   },
   "author": "darshana",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "webpack-dev-server": "^3.2.1"
+  },
   "devDependencies": {
+    "7": "0.0.1",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "css-loader": "^2.1.1",
+    "i": "^0.3.6",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
+    "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "style-loader": "^0.23.1",
-    "webpack": "^4.29.6"
-  },
-  "babel": {
-    "presets": [
-      "es2015",
-      "react",
-      "stage-0"
-    ],
-    "plugins": [
-      "transform-object-rest-spread"
-    ]
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }

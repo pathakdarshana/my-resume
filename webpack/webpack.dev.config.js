@@ -5,10 +5,10 @@ var parentDir = path.join(__dirname, '../');
 
 module.exports = {
 	entry: [
-		path.join(parentDir, '../index.js')
+		path.join(parentDir, 'index.js')
 	],
   module: {
-    loaders: [{
+    rules: [{
 			test: /\.(js|jsx)$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader'
@@ -23,7 +23,8 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
-    contentBase: parentDir + '/dist',
-    historyApiFallback: true
-  },
+    contentBase: parentDir,
+    historyApiFallback: true,
+    writeToDisk: true
+  }
 }
