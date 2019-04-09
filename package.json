@@ -9,6 +9,7 @@
   "author": "darshana",
   "license": "ISC",
   "dependencies": {
+    "styled-components": "^4.2.0",
     "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
